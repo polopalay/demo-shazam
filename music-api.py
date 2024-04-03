@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 app = FastAPI()
 
-data_dir = './music'  # Thay đổi đường dẫn đến thư mục chứa dữ liệu âm thanh của bạn
+data_dir = './music'
 
 def extract_features(y, sr=16000, nfilt=10, winstep=0.02):
     try:
